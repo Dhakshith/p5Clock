@@ -31,7 +31,7 @@ function draw() {
 	arc(0, 0, 380, 380, 0, minuteAngle);
 
 	stroke(150, 255, 100);
-	let hourAngle = map(hr - 0.8, 0, 12, -90, 360);
+	let hourAngle = map(hr + 1, 0, 12, 0, 360);
 	arc(0, 0, 360, 360, 0, hourAngle);
 
 	stroke(255);
